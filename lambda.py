@@ -139,4 +139,4 @@ def unit_test() -> None:
             post_to_sns_details(item)
 
 
-unit_test()
+#unit_test()
