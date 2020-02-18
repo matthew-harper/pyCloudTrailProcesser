@@ -1,0 +1,71 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAJAZM5CU65I7WAWLXS",
+        "arn": "arn:aws:iam::123456789:user/adminuser",
+        "accountId": "123456789",
+        "accessKeyId": "ASIARODRDWF3TEHXRSML",
+        "userName": "adminuser",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2020-02-17T12:12:45Z"
+          }
+        },
+        "invokedBy": "signin.amazonaws.com"
+      },
+      "eventTime": "2020-02-18T00:00:23Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "CreateFunction20150331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "173.3.195.211",
+      "userAgent": "signin.amazonaws.com",
+      "requestParameters": {
+        "functionName": "cloudtrail-test",
+        "runtime": "nodejs12.x",
+        "role": "arn:aws:iam::123456789:role/service-role/cloudtrail-test-role-ucy1gogz",
+        "handler": "index.handler",
+        "code": {},
+        "timeout": 3,
+        "memorySize": 128,
+        "publish": false,
+        "vpcConfig": {},
+        "deadLetterConfig": {},
+        "environment": {},
+        "tracingConfig": {
+          "mode": "PassThrough"
+        }
+      },
+      "responseElements": {
+        "functionName": "cloudtrail-test",
+        "functionArn": "arn:aws:lambda:us-west-2:123456789:function:cloudtrail-test",
+        "runtime": "nodejs12.x",
+        "role": "arn:aws:iam::123456789:role/service-role/cloudtrail-test-role-ucy1gogz",
+        "handler": "index.handler",
+        "codeSize": 304,
+        "description": "",
+        "timeout": 3,
+        "memorySize": 128,
+        "lastModified": "2020-02-18T00:00:23.517+0000",
+        "codeSha256": "k33TggGtygLrDDrEecfHuvfuVd+6bRxCFv7lErxWOJ0=",
+        "version": "$LATEST",
+        "environment": {},
+        "tracingConfig": {
+          "mode": "PassThrough"
+        },
+        "revisionId": "731ea425-008e-4446-9a65-9c9656fe7801",
+        "state": "Active",
+        "lastUpdateStatus": "Successful"
+      },
+      "requestID": "4ecf4f6f-e754-43c9-8758-56fa93bfd561",
+      "eventID": "8c3588a6-e29c-47c1-9c83-33adc876b211",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "123456789"
+    }
+  ]
+}
